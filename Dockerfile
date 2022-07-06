@@ -2,6 +2,8 @@
 
 FROM golang:1.18-alpine AS build
 
+LABEL org.opencontainers.image.source="https://github.com/Huskydog9988/simple-redirect"
+
 WORKDIR /app
 
 COPY go.mod ./
