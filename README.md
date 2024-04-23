@@ -2,7 +2,7 @@
 
 Permanently redirects users from the current URI to the new one.
 
-Not only does it redirect them, but attempts to preserve their desired page during the redirect.
+Not only does it redirect them, but attempts to preserve their desired page during the redirect. For example, a user visting `https://example.com/home`, would be redirected to `https://example2.com/home`. This enables quick and dirty hostname migrations with minimal impact to users. 
 
 ## Environment Variables
 
